@@ -1,10 +1,5 @@
 $(function() {
     getUserInfo();
-
-
-
-
-
 })
 
 function getUserInfo() {
@@ -31,6 +26,7 @@ function randAvater(user) {
         var first = name[0].toUpperCase()
         $(".text-avatar").html(first).show()
         $(".layui-nav-img").hide()
+        console.log(user);
     }
 }
 
