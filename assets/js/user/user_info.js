@@ -33,7 +33,6 @@ $(function() {
                     return layer.msg("更新用户信息失败！")
                 }
                 layer.msg("更新用户信息成功！")
-                console.log(res);
                 window.parent.getUserInfo()
             }
         })
